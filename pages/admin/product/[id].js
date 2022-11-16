@@ -165,7 +165,7 @@ export default function AdminProductEditScreen() {
                 )}
               </div>
               <div className="mb-4">
-                <label htmlFor="image">image</label>
+                <label htmlFor="image">Image</label>
                 <input
                   type="text"
                   className="w-full"
@@ -179,7 +179,7 @@ export default function AdminProductEditScreen() {
                 )}
               </div>
               <div className="mb-4">
-                <label htmlFor="category">category</label>
+                <label htmlFor="category">Category</label>
                 <input
                   type="text"
                   className="w-full"
@@ -193,7 +193,7 @@ export default function AdminProductEditScreen() {
                 )}
               </div>
               <div className="mb-4">
-                <label htmlFor="brand">brand</label>
+                <label htmlFor="brand">Brand</label>
                 <input
                   type="text"
                   className="w-full"
@@ -207,7 +207,7 @@ export default function AdminProductEditScreen() {
                 )}
               </div>
               <div className="mb-4">
-                <label htmlFor="countInStock">countInStock</label>
+                <label htmlFor="countInStock">CountInStock</label>
                 <input
                   type="text"
                   className="w-full"
@@ -223,7 +223,7 @@ export default function AdminProductEditScreen() {
                 )}
               </div>
               <div className="mb-4">
-                <label htmlFor="countInStock">description</label>
+                <label htmlFor="countInStock">Description</label>
                 <input
                   type="text"
                   className="w-full"
