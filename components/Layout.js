@@ -104,19 +104,6 @@ export default function Layout({ title, children }) {
         </header>
         <main className="container m-auto mt-4 px-4">{children}</main>
         <footer className="p-4 bg-white mt-5 shadow-inner md:px-6 md:py-8">
-          <div className="sm:flex sm:items-center sm:justify-between">
-            <Link href="/" className="flex items-center mb-4 sm:mb-0">
-              <img
-                src="https://flowbite.com/docs/images/logo.svg"
-                className="mr-3 h-8"
-                alt="Flowbite Logo"
-              />
-              <span className="self-center text-xl font-semibold whitespace-nowrap text-black">
-                Copyright © 2022 Ecommerce
-              </span>
-            </Link>
-          </div>
-          <hr className="my-6 sm:mx-auto border-gray-200 lg:my-8" />
           <span className="block text-sm  sm:text-center text-gray-400">
             © 2022{' '}
             <Link href="/" className="hover:underline">
